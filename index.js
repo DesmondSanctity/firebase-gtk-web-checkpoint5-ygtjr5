@@ -103,7 +103,7 @@ form.addEventListener("submit", (e) => {
  return false;
 });
 
-// Listen to guestbook updates
+ // Listen to guestbook updates
 function subscribeGuestbook(){
    // Create query for messages
  guestbookListener = firebase.firestore().collection("guestbook")
